@@ -6,7 +6,7 @@ import Kontakt from './components/Kontakt';
 
 function App() {
   return (
-    <Router >
+    <Router basename={process.env.PUBLIC_URL} >
     <div className="App">
   <Link to="#main">Strona Glowna</Link>
   <Link to="#kontakt">Kontakt</Link>
