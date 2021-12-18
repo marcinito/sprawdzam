@@ -1,12 +1,12 @@
 
 import './css/style.min.css';
-import {BrowserRouter as Router,Link,Routes,Route} from 'react-router-dom'
+import {HashRouter as Router,Link,Routes,Route} from 'react-router-dom'
 import StronaGlowna from './components/StronaGlowna';
 import Kontakt from './components/Kontakt';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
   <Link to="main">Strona Glowna</Link>
   <Link to="kontakt">Kontakt</Link>
