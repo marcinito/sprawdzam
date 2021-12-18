@@ -1,8 +1,9 @@
 
-import './App.css';
+import './css/style.min.css';
 import {BrowserRouter as Router,Link,Routes,Route} from 'react-router-dom'
 import StronaGlowna from './components/StronaGlowna';
 import Kontakt from './components/Kontakt';
+
 function App() {
   return (
     <Router>
