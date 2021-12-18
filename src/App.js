@@ -8,8 +8,8 @@ function App() {
   return (
     <Router >
     <div className="App">
-  <Link to="main">Strona Glowna</Link>
-  <Link to="kontakt">Kontakt</Link>
+  <Link to="#main">Strona Glowna</Link>
+  <Link to="#kontakt">Kontakt</Link>
 
   <div className="main">
     <Routes>
