@@ -6,15 +6,15 @@ import Kontakt from './components/Kontakt';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
     <div className="App">
   <Link to="main">Strona Glowna</Link>
   <Link to="kontakt">Kontakt</Link>
 
   <div className="main">
     <Routes>
-      <Route path="main" element={<StronaGlowna/>}></Route>
-      <Route path="kontakt" element={<Kontakt/>}></Route>
+      <Route path="#main" element={<StronaGlowna/>}></Route>
+      <Route path="#kontakt" element={<Kontakt/>}></Route>
     </Routes>
   </div>
     </div>
